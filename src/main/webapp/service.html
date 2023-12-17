@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Service</title>
+<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		form {
+			background-color: #ffffff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px #888888;
+			max-width: 400px;
+			margin: 50px auto;
+		}
+		h2 {
+			text-align: center;
+			margin-top: 0;
+		}
+		input[type=text], input[type=password], input[type=date], input[type=number] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		button[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 14px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			width: 100%;
+		}
+		button[type=submit]:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+	<form action="Service" method="post">
+	<label for="sname">Product Name</label>
+	<input type="text" id="sname" name="sname" placeholder="Enter first name" required>
+	<label for="scatagory">Product Catagory</label>
+	<input type="text" id="scatagory" name="scatagory" placeholder="Enter product catagory" required>
+	<label for="scondition">producy Condition</label>
+	<input type="text" id="scondition" name="scondition" placeholder="Enter condition" required>
+	<label for="sdesc">Desc</label>
+	<input type="test" id="sdesc" name="sdesc" placeholder="Enter desc" required>
+	<label for="saddress"> address</label>
+	<input type="text" id="saddress" name="saddress" placeholder="Enter address" required>
+	<label for="scontact">contact</label>
+	<input type="text" id="scontact" name="scontact" placeholder="Enter password" required>
+	<button type="submit">Submit</button>
+	</form>
+</body>
+</html>

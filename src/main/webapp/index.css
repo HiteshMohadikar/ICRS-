@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 65.2%;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 4rem;
+}
+
+ :root {
+    --heading-color: rgb(13, 13, 13);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ :root {
+    --primary-head: 6rem;
+    --secondary-head: 4rem;
+    --para-size: 1rem;
+    --list-size: 1.5rem;
+    --small-padding: .5rem 1.51rem;
+    --first-color: #369606;
+    --second-color: #9DAAF2;
+    --third-color: #FF6A3D;
+    --fourth-color: #F4DB7D;
+    --white-color: #f3f6f2;
+    --shadow-color: #ccd6da;
+    --background-color: #e8e9eb;
+    --black-color: #030306;
+}
+
+.container {
+    margin: 0 13.96rem;
+    max-width: 1240px;
+}
+
+.main-container {
+    padding: 5rem 2.5rem;
+    margin-top: 5rem;
+    margin: 5rem 5rem;
+}
+
+.btn {
+    padding: .8rem .9rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 20%;
+}
+
+.font {
+    font-weight: 600;
+    text-align: center;
+}
+
+.primary-heading {
+    font-size: 6rem;
+}
+
+.secondary-heading {
+    font-size: 4rem;
+}
+
+.third-heading {
+    font-size: 3rem;
+}
+
+.para {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.main-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*---header---*/
+
+header {
+    min-height: 7rem;
+    padding: .5rem 2rem;
+    box-shadow: 0 2px 5px rgb(198, 193, 193);
+}
+
+.logo-container {
+    padding: 1rem 0;
+}
+
+.logo-container img {
+    width: 150px;
+}
+
+.list-items {
+    padding: var(--small-padding);
+}
+
+.list-items a {
+    color: #41493E;
+    font-weight: 600;
+    padding: 2rem 2rem;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+.list-items a:hover {
+    color: #41493ec2;
+}
+
+
+/*--main section--*/
+
+.welcome-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.welcome-div .headline {
+    font-size: var(--secondary-head);
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #41493E;
+}
+
+.welcome-div .wel-info {
+    font-size: 20px;
+    line-height: 2.8rem;
+    color: #41493E;
+}
+
+.register-div {
+    text-align: center;
+    width: 50%;
+}
+
+.register-btn {
+    background-color: var(--first-color);
+    border: none;
+    border-radius: 10rem;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    font-size: var(--list-size);
+    color: var(--white-color);
+    font-weight: 600;
+    padding: 1.5rem 5rem;
+}
+
+.register-btn:hover,
+.register-btn:active {
+    box-shadow: 0 5px 5px #3ca7075c;
+}
+
+.aim {
+    margin-bottom: 5rem;
+}
+
+
+/*--footer--*/
+
+.page-foot {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: var(--white-color);
+}
+
+.footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.foot-head {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 800;
+    color: #41493E;
+}
+
+.margin-heading {
+    margin-bottom: 2rem;
+}
+
+.para-color {
+    margin-bottom: 1rem;
+    color: #41493E;
+    font-size: 1.2rem;
+}
+
+.section-para {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.foot-btn i {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+
+.foot-btn {
+    padding: 1.2rem;
+    margin-right: .5rem;
+    border-radius: .3rem;
+    color: #41493E;
+    background-color: #41493e20;
+    margin-top: 2rem;
+}
+
+.copyright-column {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid rgba(221, 221, 221, 0.8);
+    background-color: #369606;
+}
+
+.copyright-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*--first-page--*/
+
+
+/*--main-section--*/
+
+.heading-container {
+    text-align: center;
+    background-color: #36960667;
+    padding: 7rem 2rem;
+}
+
+.page-heading {
+    font-size: 7rem;
+    font-weight: 800;
+    color: #369606;
+}
+
+.main-btn {
+    background-color: transparent;
+    border: 5px solid #369606;
+    border-radius: 20px;
+    transition: all 0.2ms;
+}
+
+.main-btn:hover,
+.main-btn :active {
+    background-color: #369606;
+    color: var(--white-color);
+}
